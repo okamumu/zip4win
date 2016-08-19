@@ -81,7 +81,7 @@
 				<key>Class Name</key>
 				<string>Create_Archive</string>
 				<key>InputUUID</key>
-				<string>40D59B48-F7A8-44DA-B144-856C757D0F66</string>
+				<string>2CC4FFBC-EE1E-4FCA-BE6F-FBD22035F58C</string>
 				<key>Keywords</key>
 				<array>
 					<string>アーカイブ</string>
@@ -94,9 +94,9 @@
 					<string>Zip</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>73665348-5A31-4362-8393-50FBFAC8D23B</string>
+				<string>AFECAB26-3BC9-4D3F-91D5-AD0CF3BC416A</string>
 				<key>UUID</key>
-				<string>E1116639-21D4-4020-941C-C87B487DAC4D</string>
+				<string>3391DE10-49F8-451A-82C0-ACE55AF94BD5</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -143,6 +143,8 @@
 						<string>2</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -259,7 +261,7 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>B75ADE86-6AD5-4C7B-967C-7857A92EE138</string>
+				<string>B52111CA-4B21-4CD0-BA58-B5BFAE7C8C23</string>
 				<key>Keywords</key>
 				<array>
 					<string>シェル</string>
@@ -269,9 +271,9 @@ die "error" if $status != Archive::Zip::AZ_OK;
 					<string>UNIX</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>EECF5843-8C87-4A46-8861-B9E843E886A6</string>
+				<string>A85A7EDD-FB08-4D89-A724-CFC7551B07BC</string>
 				<key>UUID</key>
-				<string>5A7C5EB2-15F5-487E-A294-2B4E81CD6906</string>
+				<string>EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -344,6 +346,8 @@ die "error" if $status != Archive::Zip::AZ_OK;
 						<string>4</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -408,15 +412,15 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>Class Name</key>
 				<string>AMCopyToClipboardAction</string>
 				<key>InputUUID</key>
-				<string>7E62C3F1-EDE3-4647-A777-C5C9F6736267</string>
+				<string>3F87F662-6C85-4D4E-A982-DE1647FECFB9</string>
 				<key>Keywords</key>
 				<array>
 					<string>コピー</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>3E318964-A2AC-4B5F-BECD-87D94B488575</string>
+				<string>3CAD6C7F-A490-46F6-9D8E-DC6C5A7FCA2B</string>
 				<key>UUID</key>
-				<string>11096032-972C-4639-AB2C-E437F4698019</string>
+				<string>E0E22347-B152-4DB1-96C5-C20C20054178</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>System</string>
@@ -430,25 +434,31 @@ die "error" if $status != Archive::Zip::AZ_OK;
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>110754D8-8373-4EE4-95CA-24159122C308</key>
+		<key>0DD5FA1E-4CE8-48D9-BF73-F2B4BC0512D1</key>
 		<dict>
 			<key>from</key>
-			<string>E1116639-21D4-4020-941C-C87B487DAC4D - E1116639-21D4-4020-941C-C87B487DAC4D</string>
+			<string>EFFC4CD5-B902-48E7-BB97-245F041644D9 - EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
 			<key>to</key>
-			<string>5A7C5EB2-15F5-487E-A294-2B4E81CD6906 - 5A7C5EB2-15F5-487E-A294-2B4E81CD6906</string>
+			<string>E0E22347-B152-4DB1-96C5-C20C20054178 - E0E22347-B152-4DB1-96C5-C20C20054178</string>
 		</dict>
-		<key>3B3CDDA5-579C-409C-9A9A-AABBE9D6BB10</key>
+		<key>61AC8F64-6F69-48EC-B7DC-35888B472423</key>
 		<dict>
 			<key>from</key>
-			<string>5A7C5EB2-15F5-487E-A294-2B4E81CD6906 - 5A7C5EB2-15F5-487E-A294-2B4E81CD6906</string>
+			<string>3391DE10-49F8-451A-82C0-ACE55AF94BD5 - 3391DE10-49F8-451A-82C0-ACE55AF94BD5</string>
 			<key>to</key>
-			<string>11096032-972C-4639-AB2C-E437F4698019 - 11096032-972C-4639-AB2C-E437F4698019</string>
+			<string>EFFC4CD5-B902-48E7-BB97-245F041644D9 - EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.application</string>
+		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
 </dict>
 </plist>
