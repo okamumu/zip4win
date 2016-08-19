@@ -56,7 +56,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Create Archive.action</string>
 				<key>ActionName</key>
-				<string>アーカイブを作成</string>
+				<string>Create Archive</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>archiveName</key>
@@ -81,22 +81,22 @@
 				<key>Class Name</key>
 				<string>Create_Archive</string>
 				<key>InputUUID</key>
-				<string>2CC4FFBC-EE1E-4FCA-BE6F-FBD22035F58C</string>
+				<string>EF537515-4A86-4AB2-B465-EA1291B81BD2</string>
 				<key>Keywords</key>
 				<array>
-					<string>アーカイブ</string>
-					<string>作成</string>
-					<string>作成</string>
-					<string>ファイル</string>
-					<string>フォルダ</string>
+					<string>Archive</string>
+					<string>Create</string>
+					<string>Make</string>
+					<string>File</string>
+					<string>Folder</string>
 					<string>Stuff</string>
 					<string>StuffIt</string>
 					<string>Zip</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>AFECAB26-3BC9-4D3F-91D5-AD0CF3BC416A</string>
+				<string>0EC7230E-3AD2-4619-A41C-54751D331FC2</string>
 				<key>UUID</key>
-				<string>3391DE10-49F8-451A-82C0-ACE55AF94BD5</string>
+				<string>502628E7-8FC3-4910-9225-438EF63C472D</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -148,7 +148,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:498.000000</string>
+				<string>475.000000:724.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Create Archive.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -200,7 +200,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>シェルスクリプトを実行</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
@@ -261,19 +261,19 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>B52111CA-4B21-4CD0-BA58-B5BFAE7C8C23</string>
+				<string>876EC5DC-C151-4759-9729-61AA970FA92A</string>
 				<key>Keywords</key>
 				<array>
-					<string>シェル</string>
-					<string>スクリプト</string>
-					<string>コマンド</string>
-					<string>実行</string>
-					<string>UNIX</string>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>A85A7EDD-FB08-4D89-A724-CFC7551B07BC</string>
+				<string>27147CFD-1EE3-4DE6-B4F9-864CEEA079AC</string>
 				<key>UUID</key>
-				<string>EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
+				<string>2C43EB5F-18D8-4669-BF96-361F82B336F0</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -351,9 +351,9 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:346.000000</string>
+				<string>475.000000:572.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -376,7 +376,7 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<string>1.2.1</string>
 				<key>AMApplication</key>
 				<array>
-					<string>システム</string>
+					<string>System</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict/>
@@ -394,7 +394,7 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Copy to Clipboard.action</string>
 				<key>ActionName</key>
-				<string>クリップボードにコピー</string>
+				<string>Copy to Clipboard</string>
 				<key>ActionParameters</key>
 				<dict/>
 				<key>BundleIdentifier</key>
@@ -412,15 +412,15 @@ die "error" if $status != Archive::Zip::AZ_OK;
 				<key>Class Name</key>
 				<string>AMCopyToClipboardAction</string>
 				<key>InputUUID</key>
-				<string>3F87F662-6C85-4D4E-A982-DE1647FECFB9</string>
+				<string>9203F505-9C3D-4BF3-80E7-76FBB40D6340</string>
 				<key>Keywords</key>
 				<array>
-					<string>コピー</string>
+					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>3CAD6C7F-A490-46F6-9D8E-DC6C5A7FCA2B</string>
+				<string>611EB1B0-8237-439B-A497-4F30A0872088</string>
 				<key>UUID</key>
-				<string>E0E22347-B152-4DB1-96C5-C20C20054178</string>
+				<string>F9E6A82D-372C-4837-9BDC-BABFD88F2AEC</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>System</string>
@@ -434,23 +434,27 @@ die "error" if $status != Archive::Zip::AZ_OK;
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0DD5FA1E-4CE8-48D9-BF73-F2B4BC0512D1</key>
+		<key>09427473-F3FA-4032-9443-620364E8DFE7</key>
 		<dict>
 			<key>from</key>
-			<string>EFFC4CD5-B902-48E7-BB97-245F041644D9 - EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
+			<string>502628E7-8FC3-4910-9225-438EF63C472D - 502628E7-8FC3-4910-9225-438EF63C472D</string>
 			<key>to</key>
-			<string>E0E22347-B152-4DB1-96C5-C20C20054178 - E0E22347-B152-4DB1-96C5-C20C20054178</string>
+			<string>2C43EB5F-18D8-4669-BF96-361F82B336F0 - 2C43EB5F-18D8-4669-BF96-361F82B336F0</string>
 		</dict>
-		<key>61AC8F64-6F69-48EC-B7DC-35888B472423</key>
+		<key>652532E2-F433-45E9-B256-2CDB88F7D202</key>
 		<dict>
 			<key>from</key>
-			<string>3391DE10-49F8-451A-82C0-ACE55AF94BD5 - 3391DE10-49F8-451A-82C0-ACE55AF94BD5</string>
+			<string>2C43EB5F-18D8-4669-BF96-361F82B336F0 - 2C43EB5F-18D8-4669-BF96-361F82B336F0</string>
 			<key>to</key>
-			<string>EFFC4CD5-B902-48E7-BB97-245F041644D9 - EFFC4CD5-B902-48E7-BB97-245F041644D9</string>
+			<string>F9E6A82D-372C-4837-9BDC-BABFD88F2AEC - F9E6A82D-372C-4837-9BDC-BABFD88F2AEC</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string></string>
+		<key>serviceApplicationPath</key>
+		<string></string>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.fileSystemObject</string>
 		<key>serviceOutputTypeIdentifier</key>
